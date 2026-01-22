@@ -43,6 +43,7 @@ h2 {
 h3{
     color: azure;
     text-align: center;
+    font-weight: bold;
 }
 
 
@@ -53,4 +54,5 @@ img {
     border-radius: 5px;
     width: 200px;
     height: auto;
+    margin-right: 40px;
 }
