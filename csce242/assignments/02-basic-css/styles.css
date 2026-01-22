@@ -14,7 +14,9 @@ body {
 
 /* Tables */
 table {
+    margin: auto;
     border-collapse: collapse;
+
 }
 th,
 td {
