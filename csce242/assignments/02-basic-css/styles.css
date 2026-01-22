@@ -13,7 +13,20 @@ body {
 /* Navigation */
 
 /* Tables */
-
+table {
+    border-collapse: collapse;
+}
+th,
+td {
+    border: 1px solid;
+    padding: 10px;
+}
+th {
+    background: firebrick;
+}
+td {
+    background: azure;
+}
 
 /* Typography */
 h1{
@@ -24,6 +37,7 @@ h2 {
     color: azure;
     text-align: left;
 }
+
 
 /* Images */
 img {
