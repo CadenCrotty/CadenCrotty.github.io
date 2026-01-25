@@ -31,6 +31,28 @@ body {
     color:azure;
 }
 
+#main-nav a:hover {
+    color: orangered;
+}
+
+#gallery section {
+    background: powderblue;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    width: 120px;
+    
+}
+
+#gallery {
+    align-items: flex-end;
+    display:flex;
+    justify-content: space-between;
+}
+
+.text {
+    width: 30%;
+}
 
 /* Typography */
 #main-header {
@@ -41,20 +63,22 @@ body {
 
 /* Larger Devices */
 @media (min-width: 900px) {
+   
     .columns {
         display:flex;
     }
+
     
     .one {
-        flex:1;
+        flex:2=4;
     }
     
     .two {
-        flex:2;
+        flex:4;
     }
 
     .three {
-        flex:3;
+        flex:4;
     }
 
     .four {
