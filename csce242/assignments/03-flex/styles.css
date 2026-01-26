@@ -2,6 +2,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color:steelblue;
+    margin: 0;
 }
 
 #main-content {
@@ -11,6 +12,45 @@ body {
 
 #main-header {
     background: darksalmon;
+}
+
+#firstSection {
+    display: flex;
+    align-items: stretch;
+}
+
+
+#titlesSection {
+    display:flex;
+    flex: 1;
+    align-items: center;
+    padding: 10px 20px 20px 10px;
+    gap: 18px;
+}
+
+.titleBox {
+    flex: 1;
+}
+
+.title {
+    background-color:powderblue;
+    color:azure;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 0;
+}
+
+
+.titleImg img {
+    display: block;
+    width: 200px;
+    height: 300px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -23,7 +63,7 @@ body {
     list-style-type: none; /*Removes bullets */
     background: indianred; 
     padding:5px;
-    border-bottom:1px solid maroon;
+    border-right:2px solid white;
 }
 
 #main-nav a {
@@ -61,8 +101,78 @@ body {
     color: azure;
 }
 
+#importantText {
+    flex:1;
+    color: azure;
+    padding: 70px 20px;
+    font-weight: bold;
+    
+}
+
+.idea {
+    border-top: 7px solid steelblue;
+    display:flex;
+}
+
+.idea1  .space1{
+    background-color: powderblue;
+    width: 800px;
+}
+
+.space1 {
+    background-color: cornflowerblue;
+    width: 800px;
+}
+
+.idea1 .ideaImg {
+    width:200px;
+    background-color:powderblue;
+}
+
+.ideaImg2 {
+    width:200px;
+    background-color:cornflowerblue;
+}
+
+.ideaTitle {
+    padding-left:10px;
+    background-color:powderblue;
+    color:azure;
+
+    
+}
+
+.ideaName {
+    font-weight: bold;
+}
+
+.idea2 .space2 {
+    width:800px;
+    background-color:cornflowerblue;
+    
+}
+
+.ideaTitle2 {
+    padding-left:10px;
+    background-color:cornflowerblue;
+    color:azure;
+}
+
+#footer {
+    color:azure;
+    font-weight:bold;
+    text-align:center;
+    background-color:indianred;
+    height:70px;
+    padding:10px 200px 10px 200px;
+    border-top: 7px solid steelblue;
+    
+}
+
+
+
 /* Larger Devices */
-@media (min-width: 900px) {
+@media (min-width: 700px) {
    
     .columns {
         display:flex;
@@ -70,7 +180,7 @@ body {
 
     
     .one {
-        flex:2=4;
+        flex:4;
     }
     
     .two {
