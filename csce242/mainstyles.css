@@ -18,3 +18,12 @@ a {
         border-style: solid;
         border-color:darkblue;
 }
+
+#assignments {
+        align-items: center;
+}
+
+#header {
+        align-items:center;
+        color: black;
+}
