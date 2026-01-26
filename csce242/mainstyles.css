@@ -10,7 +10,7 @@ a {
 }
 #content {
         font-family: "Audiowide", sans-serif;
-        background-color: azure;
+        background-color:darkblue;
         width:95%;
         padding:2%;
         border-radius:5px;
@@ -20,10 +20,98 @@ a {
 }
 
 #assignments {
-        align-items: center;
+        text-align: center;
+        color:black;
+}
+
+.pageHeader  {
+        text-align:center;
+        color:azure;
+}
+
+.header {
+        text-align:center;
+        color:azure;
 }
 
 #header {
         align-items:center;
-        color: black;
+        color: azure;
+}
+
+.projectHeader {
+        text-align:center;
+        color:azure;
+}
+
+ol {
+        list-style-type: none;
+}
+/*links*/
+a {
+        text-decoration: none;
+}
+
+#repo {
+        color: firebrick;
+        text-align:left;
+}
+
+.projects a{
+        color:firebrick;
+}
+
+.projects {
+        text-align:left;
+}
+/*assignments*/
+.list {
+        display:flex;
+        color:cornflowerblue;
+        background:azure;
+        margin:auto;
+        padding:5px;
+        gap:18px;
+}
+
+.assignments {
+        flex: 1;
+        text-align: center;
+        padding:3%;
+        border:2px solid darkblue;
+        color:lightskyblue;
+}
+
+
+.assignments li {
+        padding: 8px;
+}
+
+/*img*/
+img {
+        width:300px;
+        height:150px;
+}
+
+.topicImg {
+        align-items:center;
+        border:2px solid darkblue;
+        color:lightskyblue;
+        padding:3%;
+        flex:1;
+        background:azure;
+
+}
+
+/*Larger screens*/
+@media(max-width: 700px) {
+ .list {
+        align-items:center;
+        flex-direction: column;
+        padding:20px;
+        }
+}
+
+.assignments {
+
 }
