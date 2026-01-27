@@ -1,60 +1,125 @@
 /* Main Structure */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #bde0fe;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#bde0fe;
 }
-
 
 #main-content {
     width:80%;
-    margin: auto; /* Center */
-    
+    margin:auto;    /* Center */
 }
 
 #main-header {
-    background: #ffafcc;
+    background:#ffafcc;
 }
 
 #content {
+    
+}
 
+#sidebar {
+    background:lightcoral;
 }
 
 #main-footer {
 
 }
-
-#gallery section {
-    background: lightgray;
-    padding: 5px;
-    border-radius:5px;
-    margin:5px;
+/* Header */
+#logo {
+    margin:10px;
 }
 
-#gallery div {
-    
 
+
+/* Images */
+img {
+    max-width:100%;
+}
+
+
+/* Square */ 
+.area {
+    position:relative;
+    background: #cdb4db;
+}
+
+.arrow {
+    font-size:1.5em;
+    color:white;
+    position: absolute;
+    top:32%;
+}
+
+#prev {
+    left:5%;
+}
+#next {
+    right:5%;
+}
+
+#slide-desc {
+    position: absolute;
+    bottom: 10%;
+    left:5%;
+    background: rgba(225,225,225,0.8); 
+    padding: 5px;
+    max-width: 40%;
+}
+
+
+#square {
+    width:100px;
+    height:100px;
+    background: lightsalmon;
+
+    /*Position absolute is in respect to the upper left hand corner */
+
+
+    position: absolute;
+    top:50px;
+    left:50px;
+}
+
+/* Gallery */
+#gallery section {
+    background:lightgray;
+    padding:5px;
+    border-radius:5px;
+    margin:5px;
 }
 
 #gallery section h3 {
     text-align:center;
 }
 
-/*Navigation */
+/* Area */
+
+
+/* List */
+.item {
+    margin:5px;
+    background:#cdb4db;
+}
+.item img {
+    display:block;
+    margin:auto;
+}
+
+/* Navigation */
 #main-nav ul {
-    padding-left: 0; /*Remove indentation */
+    padding-left:0;     /* Remove indentation */
 }
 
 #main-nav li {
-    list-style-type: none; /*Remove bullet */
+    list-style-type:none;   /* Remove bullet */
     background:#ffc8dd;
-    padding: 5px;
-    border-bottom: 1px solid #cdb4db;
+    padding:5px;
+    border-bottom:1px solid #cdb4db;;
 }
 
 #main-nav a {
-    text-decoration: none; /*Remove underline */
+    text-decoration: none;  /* Remove underline */
 }
-
 
 /* Typography */
 #main-header h1 {
@@ -64,6 +129,12 @@ body {
 
 /* Larger devices */
 @media (min-width: 768px) {
+    
+    #content {
+        justify-content: space-between;
+        gap: 1em;
+    }
+    
     .columns {
         display:flex;
     }
@@ -71,6 +142,7 @@ body {
     .one {
         flex:1;
     }
+
     .two {
         flex:2;
     }
@@ -88,16 +160,25 @@ body {
     }
 
     #main-nav li {
-        background: transparent;
+        background:transparent;
         flex:1;
     }
 
     #main-nav a {
         color: darkslateblue;
-        border-bottom: 1px solid transparent;
+        border-bottom:1px solid transparent;
     }
 
     #main-nav a:hover {
-        border-bottom: 1px solid darkslateblue;
+        border-bottom:1px solid darkslateblue;
     }
+
+    .item img {
+        flex:1;
+    }
+
+    .item div {
+        flex:5;
+    }
+
 }
