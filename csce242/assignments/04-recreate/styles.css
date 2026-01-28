@@ -1,0 +1,73 @@
+/* Main Structure */
+body {
+    margin:0;
+}
+
+
+
+/* Header */
+#main-header {
+    background:#000000;
+    position:relative;
+    
+}
+
+
+
+#top-nav {
+    position:absolute;
+    top: 0;
+    left: 1%;
+    
+    
+    
+    
+    
+    
+}
+
+#top-nav li:not(:last-child)::after {
+    content:" | ";
+    color:white;
+}
+
+/* Images */ 
+
+
+
+/* Navigation */
+nav ul {
+    padding-left:0; /*removes indentation */
+    
+}
+
+nav li {
+    list-style-type: none;
+    background: black;
+    padding:5px;
+
+}
+
+#top-nav a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1;
+}
+
+
+
+/* Typography */
+
+
+
+/* Larger Devices */
+@media (min-width: 768px) {
+    nav ul {
+        display:flex;
+    }
+
+    nav li {
+        background:transparent;
+        flex:1;
+    }
+}
