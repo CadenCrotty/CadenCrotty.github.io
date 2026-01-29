@@ -1,6 +1,7 @@
 /* Main Structure */
 body {
     margin:0;
+    
 }
 
 
@@ -9,30 +10,73 @@ body {
 #main-header {
     background:#000000;
     position:relative;
+    padding-top:0;
+    display:flow-root;
+}
+
+#header {
+    color: white;
+    text-align: right;
+    font-size: 26px;
+    padding-right: 25px;
+    padding-bottom: 1px;
+    
     
 }
 
-
-
 #top-nav {
-    position:absolute;
     top: 0;
     left: 1%;
-    
-    
-    
-    
-    
-    
+    padding-left: 25px;
+    padding-top: 0px;
+   
 }
 
 #top-nav li:not(:last-child)::after {
-    content:" | ";
+    content:"  |  ";
     color:white;
 }
 
-/* Images */ 
+#top-nav li {
+    display: inline;
+}
 
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 1%;
+}
+
+
+#logo p {
+    color:white;
+    
+
+}
+
+#logo h2 {
+    color: white;
+}
+
+#page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 1%;
+}
+
+#header {
+    color:white;
+    margin: 0;
+    font-size: 48px;
+}
+
+/* Images */ 
+#logo img {
+    height: 60px;
+    
+}
 
 
 /* Navigation */
@@ -44,16 +88,57 @@ nav ul {
 nav li {
     list-style-type: none;
     background: black;
-    padding:5px;
+    padding:0 2px;
 
 }
 
 #top-nav a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 11px;
     line-height: 1;
+    padding-top:2px;
+    color:white;
+    font-weight: bold;
 }
 
+#main-nav ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #750109;
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+
+}
+
+#main-nav li {
+    list-style-type: none;
+    
+    
+    
+
+}
+
+#main-nav {
+    background:#750109;
+    margin-bottom: 0;
+    padding-bottom: 1px;
+    padding-right: 162px;
+    
+
+    
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#main-nav li:not(:last-child)::after {
+    content:"    ";
+    color:white;
+}
 
 
 /* Typography */
@@ -68,6 +153,6 @@ nav li {
 
     nav li {
         background:transparent;
-        flex:1;
+        flex:none;
     }
 }
