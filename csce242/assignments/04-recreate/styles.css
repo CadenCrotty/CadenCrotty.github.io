@@ -9,6 +9,23 @@ body {
     
 }
 
+.section1 {
+    position: relative;
+}
+
+.education {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: #75000A;
+    padding: 36px;
+    font-weight: bold;
+    width: 40%;
+    max-width: 520px;
+    color: white;
+    border-radius: 2px;
+}
+
 .textBox p {
     font-weight: bold;
     text-align: center;
@@ -57,7 +74,13 @@ body {
     color: #750109;
 }
 
-.credit {
+.textbox {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#credit {
     color:black;
     font-size: 14px;
     margin-top: 15px;
@@ -157,6 +180,12 @@ body {
     display: block;
 }
 
+/* Square */
+.area {
+    background: #75000A;
+    position: relative;
+}
+
 
 
 
@@ -203,8 +232,10 @@ nav li {
 #main-nav {
     background:#750109;
     margin-bottom: 0;
-    padding-bottom: 1px;
-   /* padding-right: 162px; */
+    padding-bottom: 1px; 
+    padding-right: 3%;
+    
+    
     
 
     
@@ -230,6 +261,26 @@ nav li {
 @media (min-width: 768px) {
     #content {
         
+    }
+
+    .columns {
+        display: flex;
+    }
+
+    .one {
+        flex: 1;
+    }
+
+    .two {
+        flex: 1;
+    }
+
+    .three {
+        flex: 1;
+    }
+
+    .four {
+        flex: 1;
     }
     
     
