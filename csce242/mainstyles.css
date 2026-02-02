@@ -29,6 +29,11 @@ a {
         color:azure;
 }
 
+#description {
+        color: azure;
+        
+}
+
 .header {
         text-align:center;
         color:azure;
@@ -68,6 +73,9 @@ a {
 .project {
         color: white;
 }
+
+
+
 /*assignments*/
 .list {
         display:flex;
