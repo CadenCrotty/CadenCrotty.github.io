@@ -64,9 +64,14 @@ a {
 .projects {
         text-align:left;
 }
+
+.project {
+        color: white;
+}
 /*assignments*/
 .list {
         display:flex;
+        flex-wrap: wrap;
         color:cornflowerblue;
         background:azure;
         margin:auto;
@@ -74,14 +79,20 @@ a {
         gap:18px;
 }
 
+
+
 .assignments {
-        flex: 1;
+        flex:1; 
+        width: 30%;
         text-align: center;
         padding:3%;
         border:2px solid darkblue;
         color:lightskyblue;
+       
         
 }
+
+
 
 
 .assignments li {
@@ -90,8 +101,9 @@ a {
 
 /*img*/
 img {
-        width:300px;
-        height:150px;
+       
+       max-width: 100%;
+       height: auto;
 }
 
 .topicImg {
@@ -111,6 +123,7 @@ img {
         align-items:center;
         flex-direction: column;
         padding:20px;
+        
         }
 }
 
