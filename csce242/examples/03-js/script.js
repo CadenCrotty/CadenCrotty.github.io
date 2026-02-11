@@ -10,3 +10,34 @@ document.getElementById("a-click").onclick = (e) => {
     e.preventDefault(); //not go to the links destination
     e.currentTarget.innerHTML = "Clicked";
 };
+
+//start and stop the ball bouncing
+document.getElementById("btn-bounce").onclick = (e) => {
+    const ball = document.getElementById("ball");
+
+    if(e.currentTarget.innerHTML.toLowerCase() == "Start") {
+        e.currentTarget.innerHTML = "Stop";
+        ball.classList.add("bounce");
+    }
+    else {
+        e.currentTarget.innerHTML = "Start";
+        ball.classList.remove("bounce");
+    }
+
+}
+
+//plant health 
+document.getElementById("txt-num-days").onchange = (e) => {
+    const numEntered = e.currentTarget.value;
+    const p = document.getElementById("p-plant-message");
+    
+    if(numEntered <=0>) {
+        p.innerHTML = "Yay! We were fed today!";
+    } else if(numEntered <=2) {
+        p.innerHTML = "I'm getting a little thirsty";
+    } else if(numEntered <=5) {
+        p.innterHTML = "I'm starting to wilt";
+    }else {
+        p.innerHTML = "You killed me :(";
+    }
+};
