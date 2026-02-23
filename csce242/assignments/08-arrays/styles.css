@@ -1,0 +1,32 @@
+body {
+    background-color: cornflowerblue;
+}
+
+#main-header {
+    text-align: center;
+}
+
+#main-header h1 {
+    color: azure
+}
+
+#main-header h2 {
+    color: orange;
+}
+
+#dropdown {
+    text-align: center;
+}
+
+#links a {
+    color: azure;
+}
+
+#links ul {
+    list-style-type: none;
+    margin-left: 277px;
+}
+
+#links li {
+    margin-bottom: 10px;
+}

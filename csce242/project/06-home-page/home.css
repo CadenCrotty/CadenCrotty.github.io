@@ -30,11 +30,16 @@ body {
     gap: 15px;
     margin: 0px;
     padding: 0px;
+   
 }
 
 .tabs li {
     color: azure;
     font-weight: bold;
+}
+
+.tabs a {
+    text-decoration: none;
 }
 
 #main-header h1 {

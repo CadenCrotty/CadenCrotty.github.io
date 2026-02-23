@@ -9,7 +9,7 @@ for (let i = 0; i < COUNT; i++) {
   
   const size = 14;
   bubble.style.width = size + "px";
-  bubble.style.height = size + "px";
+  bubble.style.height = size + "px";A
   bubble.style.left = (7 + Math.random() * 86) + "%";
 
   

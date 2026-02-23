@@ -1,0 +1,137 @@
+/*Main Structure */
+
+body {
+    background-image: url("images/homebg.png");
+     margin: 0;
+    min-height: 100vh;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 800px;
+}
+
+#main-header h1 {
+    color: azure;
+   
+    top: 10px;
+    left: 20px;
+    margin: 0;
+    text-decoration: underline; 
+    text-decoration-color: red;
+
+}
+
+.tabs {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+.tabs li {
+    color: azure;
+    font-weight: bold;
+}
+
+.tabs a {
+    text-decoration: none;
+}
+
+#welcome-desc h3 {
+    padding-top: 50px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+#welcome-desc p {
+    color: azure;
+    text-align:center;
+}
+
+/*song cards */
+.song-card {
+    display: flex;
+    gap: 24px;
+    background-color: rgba(18,11,25,0.9);
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    max-width: 800px;
+    align-items: flex-start;
+    width: 200%;
+    margin: 18px auto;
+    
+}
+
+.card-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.track-rank {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.album-cover {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.song-title {
+    margin: 0;
+    font-size: 28px;
+}
+
+.artist-name {
+    margin: 5px 0;
+    font-weight: normal;
+    color:silver;
+}
+
+.desc {
+    font-style: italic;
+    font-size: 13px;
+    color: gray;
+    margin: 15px 0;
+}
+
+.song-info {
+    font-size: 13px;
+    color: gray;
+    display: flex;
+    gap: 40px;
+}
+
+.song-card {
+  border: 5px solid transparent;   /* reserve space so layout doesn't jump */
+  
+}
+
+.song-card:hover {
+  border: 5px solid #1F51FF;       /* change color if you want */
+  cursor: pointer;
+}
+
+.song-link {
+  display: block;         /* makes whole card clickable */
+  text-decoration: none;  /* removes default underline */
+  color: inherit;         /* keeps text white */
+}

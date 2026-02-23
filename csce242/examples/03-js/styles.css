@@ -61,6 +61,21 @@ img {
     width:100%;
 }
 
+/* Tables */
+table th, table td {
+    padding: 5px;
+    border: 1px solid darkslategrey;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: #05668d;
+    color: white;
+}
+
 /* Gallery */
 #gallery section {
     background:#edf6f9;
