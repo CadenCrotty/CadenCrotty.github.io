@@ -121,17 +121,48 @@ body {
 }
 
 .song-card {
-  border: 5px solid transparent;   /* reserve space so layout doesn't jump */
+  border: 5px solid transparent;   
   
 }
 
 .song-card:hover {
-  border: 5px solid #1F51FF;       /* change color if you want */
+  border: 5px solid #1F51FF;       
   cursor: pointer;
 }
 
 .song-link {
-  display: block;         /* makes whole card clickable */
-  text-decoration: none;  /* removes default underline */
-  color: inherit;         /* keeps text white */
+  display: block;         
+  text-decoration: none;  
+  color: inherit;         
+}
+
+@media (min-width: 768px) {
+    
+    .one {
+        flex: 1;
+    }
+
+    .two {
+        flex: 2;
+    }
+
+    .three {
+        flex: 3;
+    }
+    
+    .four {
+        flex: 4;
+    }
+    
+    
+    nav ul {
+        display: flex;
+    }
+    nav li {
+        flex: 1;
+    }
+
+    .tabs {
+        display: flex;
+    }
 }

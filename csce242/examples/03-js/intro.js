@@ -1,4 +1,3 @@
-
 //button click example
 document.getElementById("btn-show-message").onclick = ()=>{
     document.getElementById("p-message").innerHTML = "Hi Portia";
