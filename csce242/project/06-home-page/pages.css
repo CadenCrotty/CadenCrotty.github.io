@@ -121,7 +121,11 @@ body {
 }
 
 .song-card {
+<<<<<<< HEAD
   border: 5px solid transparent;   
+=======
+  border: 5px solid transparent;  
+>>>>>>> 43511880b28b612a3c7326131e1550f813393515
   
 }
 
@@ -131,6 +135,7 @@ body {
 }
 
 .song-link {
+<<<<<<< HEAD
   display: block;         
   text-decoration: none;  
   color: inherit;         
@@ -166,3 +171,9 @@ body {
         display: flex;
     }
 }
+=======
+  display: block;        
+  text-decoration: none;  
+  color: inherit;         
+}
+>>>>>>> 43511880b28b612a3c7326131e1550f813393515
