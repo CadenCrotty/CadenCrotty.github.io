@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+}
+
+#main-header h2 {
+    text-align: center;
+    color: azure;
+}
+
+#song-desc {
+    color: azure;
+}

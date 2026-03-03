@@ -153,3 +153,93 @@ body {
     border: 1px solid rgba(255,255,255,0.2);
     box-shadow: 0 8px 32px rgba(0,0,0,0.4);
 }
+
+
+/* Slideshow */
+#slideshow {
+    position: relative;
+    width: 800px;
+    height: 450px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+
+#slides {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#slides img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none; 
+}
+
+
+#slides img.active {
+    display: block;
+}
+
+
+.arrow {
+    display: block;
+    font-size: 5em;
+    text-decoration: none;
+    font-weight: 600;
+    position: absolute;
+    top: 30%;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+#arrow-prev {
+    left: 5%;
+}
+
+#arrow-next {
+    right: 5%;
+}
+
+
+@media (max-width: 700px) {
+
+    #main-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .tabs {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .mid-boxes {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .artists {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    #welcome-desc {
+        text-align: center;
+        margin:0 auto;
+        width: 500px;
+    }
+
+    #slideshow{
+        width: 500px;
+    }
+}

@@ -1,0 +1,63 @@
+/*Caden Crotty;csce242;section001/*
+/* Structure */
+body {
+
+    background-color: indianred;
+    font-family: "Audiowide", sans-serif;
+    background-image: url("images/bluecarbg.avif");
+    
+}
+p {
+    color: azure;
+    background-color: crimson;
+}
+
+#content {
+    padding:2%;
+}
+
+/* Navigation */
+
+/* Tables */
+table {
+    margin: auto;
+    border-collapse: collapse;
+
+}
+th,
+td {
+    border: 1px solid crimson;
+    padding: 10px;
+}
+th {
+    background-color: crimson;
+    color: azure;
+}
+td {
+    color: azure;
+}
+
+/* Typography */
+h1{
+    color: azure;
+    text-align: center;
+}
+h2 {
+    color: azure;
+    text-align: left;
+}
+h3{
+    color: azure;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Images */
+img {
+    padding:10px;
+    border: 5px solid crimson;
+    border-radius: 5px;
+    width: 200px;
+    height: auto;
+    margin-right: 40px;
+}

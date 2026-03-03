@@ -1,0 +1,141 @@
+body {
+        background-color: cornflowerblue;
+        color: black;
+        font-family: "Audiowide", sans-serif;
+       }
+
+a {
+        text-decoration: none;
+        color:lightseagreen;
+}
+#content {
+        font-family: "Audiowide", sans-serif;
+        background-color:darkblue;
+        width:95%;
+        padding:2%;
+        border-radius:5px;
+        margin:auto;
+        border-style: solid;
+        border-color:darkblue;
+}
+
+#assignments {
+        text-align: center;
+        color:black;
+}
+
+.pageHeader  {
+        text-align:center;
+        color:azure;
+}
+
+#description {
+        color: azure;
+        
+}
+
+.header {
+        text-align:center;
+        color:azure;
+}
+
+#header {
+        align-items:center;
+        color: azure;
+}
+
+.projectHeader {
+        text-align:center;
+        color:azure;
+}
+
+ol {
+        list-style-type: none;
+}
+/*links*/
+a {
+        text-decoration: none;
+}
+
+#repo {
+        color: firebrick;
+        text-align:left;
+}
+
+.projects a{
+        color:firebrick;
+}
+
+.projects {
+        text-align:left;
+}
+
+.project {
+        color: white;
+}
+
+
+
+/*assignments*/
+.list {
+        display:flex;
+        flex-wrap: wrap;
+        color:cornflowerblue;
+        background:azure;
+        margin:auto;
+        padding:5px;
+        gap:18px;
+}
+
+
+
+.assignments {
+        flex:1; 
+        width: 30%;
+        text-align: center;
+        padding:3%;
+        border:2px solid darkblue;
+        color:lightskyblue;
+       
+        
+}
+
+
+
+
+.assignments li {
+        padding: 8px;
+}
+
+/*img*/
+img {
+       
+       max-width: 100%;
+       height: auto;
+}
+
+.topicImg {
+        align-items:center;
+        border:2px solid darkblue;
+        color:lightskyblue;
+        padding:3%;
+        flex:1;
+        background:azure;
+       
+
+}
+
+/*Larger screens*/
+@media(max-width: 700px) {
+ .list {
+        align-items:center;
+        flex-direction: column;
+        padding:20px;
+        
+        }
+}
+
+.assignments {
+
+}
+

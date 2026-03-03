@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Conditionals</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="main-content">
+            <header id="main-header">
+                <h1>Assignment 8</h1>
+                <h3>If Statements</h3>
+                <nav id="main-nav">
+                    <div id="menu-toggle">
+                        <span id="arrow">&#9660;</span>
+                    </div>
+
+                    <div id="selection">
+                        <ul>
+                            <li><a href="#" id="ex1">Exercise 1</a></li>
+                            <li><a href="#" id="ex2">Exercise 2</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <!--box1-->
+            <section id="box1" class="exercise-box">
+                <div class="content-box">
+                    <h2>How many minutes until class?</h2>
+                    <input type="range" id="minutesSlider" min="0" max="60" class="slider">
+                    <p id="minutesOutput"></p>
+                    <p id="p-box1-message"></p>
+                </div>
+                
+            </section>
+
+            <!--box2-->
+            <section id="box2" class="exercise-box">
+                <div class="content-box">
+                    <h2>Countdown till class</h2>
+                    <p id="countdownMessage"></p>
+                </div>
+            </section>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

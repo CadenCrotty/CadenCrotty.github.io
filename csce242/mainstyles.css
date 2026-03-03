@@ -58,8 +58,11 @@ a {
 }
 
 #repo {
-        color: firebrick;
-        text-align:left;
+        display:block;
+        background: firebrick;
+        text-align:center;
+        font-size:16px;
+        border-radius:5px;
 }
 
 .projects a{
@@ -90,17 +93,24 @@ a {
 
 
 .assignments {
-        flex:1; 
-        width: 30%;
         text-align: center;
         padding:3%;
         border:2px solid darkblue;
         color:lightskyblue;
-       
+         background:white;
+        border-radius:5px;
+        list-style-type: none;
         
 }
 
+.assignments h3 {
+        font-size:18px;
+        
+}
 
+.assignments img {
+        border:2px solid lightblue;
+}
 
 
 .assignments li {
@@ -126,16 +136,29 @@ img {
 }
 
 /*Larger screens*/
-@media(max-width: 700px) {
- .list {
-        align-items:center;
-        flex-direction: column;
-        padding:20px;
-        
+@media(min-width: 700px) {
+        .list {
+                align-items:center;
+                flex-direction: column;
+                padding:20px;
+                
+                
+                }
+        #assignments, #projects {
+                display:flex;
+                flex-wrap:wrap;
+        }
+
+        #assignments section, #projects section {
+                width:18%;
+        }
+
+        #repo {
+                max-width:18%;
+                margin:auto;
+                margin-bottom:10px;
         }
 }
 
-.assignments {
 
-}
 
