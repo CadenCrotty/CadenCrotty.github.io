@@ -1,0 +1,103 @@
+[
+    /*{
+    "title":"Longfin Zebra Danio",
+    "lifespan": "5 years",
+    "length": "3 inches",
+    "colors":["blue", "purple", "white", "yellow"],
+    "description":"Longfin Zebra Danio is usually of a peaceful temperament. Therefore keeping them with equal-minded fishes in small-size schools would be best for them.",
+    "img":"images/longfin-zebra-danio.jpg"
+  },
+  */
+
+  {
+    "rank":"1",
+    "title":"Thunder Road",
+    "artist":"Bruce Springsteen",
+    "description":"'An inconic rock ballad that serves as an epic, emotional invitation to escape a dead-end town'",
+    "date":"August 25,1975",
+    "plays":"45.2M plays",
+    "img":"images/thunderroad.jpg"
+  },
+  {
+    "rank":"2",
+    "title":"Stairway to Heaven",
+    "artist":"Led Zeppelin",
+    "description":"'An iconic 8-minute progressive rock epic featuring a gradual build from acoustic for folk to electric hard rock'",
+    "date":"November 8, 1971",
+    "plays":"89.5M plays",
+    "img":"images/stairway.jpg"
+  },
+  {
+    "rank":"3",
+    "title":"Bohemian Rhapsody",
+    "artist":"Queen",
+    "description":"'A groundbreaking, six-minute suite written by Freddie Mercury that defies rock conventions by blending balladry, opera, and hard rock without a chorus'",
+    "date":"October 31, 1975",
+    "plays":"95.0M plays",
+    "img":"images/bohemian.jpg"
+  },
+  {
+    "rank":"4",
+    "title":"Sweet Child O' Mine",
+    "artist":"Guns N' Roses",
+    "description":"'Classic rock ballad known for its iconic opening guitar riff by Slash and emotional vocals by Axl Rose'",
+    "date":"August 17, 1988",
+    "plays":"78.0M plays",
+    "img":"images/sweet.jpg"
+  },
+  {
+    "rank":"5",
+    "title":"Smells Like Teen Spirit",
+    "artist":"Nirvana",
+    "description":"'A 1991 grunge anthem that brought alternative rock to the mainstream'",
+    "date":"September 10, 1991",
+    "plays":"82.0M plays",
+    "img":"images/smell.jpg"
+  },
+  {
+    "rank":"6",
+    "title":"Hotel California",
+    "artist":"Eagles",
+    "description":"'A classic rock song featuring a famous dual-guitar solo, using a surreal, eerie hotel as a metaphor for the dark underbelly of the American Dream'",
+    "date":"February 22, 1977",
+    "plays":"76.5M plays",
+    "img":"images/hotel.jpg"
+  },
+  {
+    "rank":"7",
+    "title":"Under Pressure",
+    "artist":"Queen & David Bowie",
+    "description":"'An iconic rock duet exploring the intense psychological and societal pressures of modern life, featuring a famous bassline created during a spontaneous jam session'",
+    "date":"October 26, 1981",
+    "plays":"61.0M plays",
+    "img":"images/pressure.jpg"
+  },
+  {
+    "rank":"8",
+    "title":"Back in Black",
+    "artist":"AC/DC",
+    "description":"'A legendary hard rock anthem serving as a defiant tribute to former lead singer Bon Scott'",
+    "date":"July 25, 1980",
+    "plays":"72.0M plays",
+    "img":"images/back.jpg"
+  },
+  {
+    "rank":"9",
+    "title":"Free Bird",
+    "artist":"Lynyrd Skynryd",
+    "description":"'A Southern Rock ballad about independence, exploring a man’s inability to settle down'",
+    "date":"November 1, 1973",
+    "plays":"58.0M plays",
+    "img":"images/bird.jpg"
+  },
+  {
+    "rank":"10",
+    "title":"Dream On",
+    "artist":"Areosmith",
+    "description":"'A power ballad written and sung by Steven Tyler, often interpreted as an anthem about preserving to make dreams come true, while also reflecting on aging and the passage of time'",
+    "date":"June 27, 1973",
+    "plays":"54.0M plays",
+    "img":"images/dream.jpg"
+  }
+
+]
