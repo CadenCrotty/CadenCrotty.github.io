@@ -1,6 +1,7 @@
 [
   {
-    "rank":"1",
+    "_id":1,
+    "rank":1,
     "title":"Thunder Road",
     "artist":"Bruce Springsteen",
     "description":"'An inconic rock ballad that serves as an epic, emotional invitation to escape a dead-end town'",
@@ -9,7 +10,8 @@
     "img":"images/thunderroad.jpg"
   },
   {
-    "rank":"2",
+    "_id":2,
+    "rank":2,
     "title":"Stairway to Heaven",
     "artist":"Led Zeppelin",
     "description":"'An iconic 8-minute progressive rock epic featuring a gradual build from acoustic for folk to electric hard rock'",
@@ -18,7 +20,8 @@
     "img":"images/stairway.jpg"
   },
   {
-    "rank":"3",
+    "_id":3,
+    "rank":3,
     "title":"Bohemian Rhapsody",
     "artist":"Queen",
     "description":"'A groundbreaking, six-minute suite written by Freddie Mercury that defies rock conventions by blending balladry, opera, and hard rock without a chorus'",
@@ -27,7 +30,8 @@
     "img":"images/bohemian.jpg"
   },
   {
-    "rank":"4",
+    "_id":4,
+    "rank":4,
     "title":"Sweet Child O' Mine",
     "artist":"Guns N' Roses",
     "description":"'Classic rock ballad known for its iconic opening guitar riff by Slash and emotional vocals by Axl Rose'",
@@ -36,7 +40,8 @@
     "img":"images/sweet.jpg"
   },
   {
-    "rank":"5",
+    "_id":5,
+    "rank":5,
     "title":"Smells Like Teen Spirit",
     "artist":"Nirvana",
     "description":"'A 1991 grunge anthem that brought alternative rock to the mainstream'",
@@ -45,7 +50,8 @@
     "img":"images/smell.jpg"
   },
   {
-    "rank":"6",
+    "_id":6,
+    "rank":6,
     "title":"Hotel California",
     "artist":"Eagles",
     "description":"'A classic rock song featuring a famous dual-guitar solo, using a surreal, eerie hotel as a metaphor for the dark underbelly of the American Dream'",
@@ -54,7 +60,8 @@
     "img":"images/hotel.jpg"
   },
   {
-    "rank":"7",
+    "_id":7,
+    "rank":7,
     "title":"Under Pressure",
     "artist":"Queen & David Bowie",
     "description":"'An iconic rock duet exploring the intense psychological and societal pressures of modern life, featuring a famous bassline created during a spontaneous jam session'",
@@ -63,7 +70,8 @@
     "img":"images/pressure.jpg"
   },
   {
-    "rank":"8",
+    "_id":8,
+    "rank":8,
     "title":"Back in Black",
     "artist":"AC/DC",
     "description":"'A legendary hard rock anthem serving as a defiant tribute to former lead singer Bon Scott'",
@@ -72,7 +80,8 @@
     "img":"images/back.jpg"
   },
   {
-    "rank":"9",
+    "_id":9,
+    "rank":9,
     "title":"Free Bird",
     "artist":"Lynyrd Skynryd",
     "description":"'A Southern Rock ballad about independence, exploring a man’s inability to settle down'",
@@ -81,7 +90,8 @@
     "img":"images/bird.jpg"
   },
   {
-    "rank":"10",
+    "_id":10,
+    "rank":10,
     "title":"Dream On",
     "artist":"Areosmith",
     "description":"'A power ballad written and sung by Steven Tyler, often interpreted as an anthem about preserving to make dreams come true, while also reflecting on aging and the passage of time'",
